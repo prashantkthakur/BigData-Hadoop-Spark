@@ -1,0 +1,42 @@
+<configuration>
+    <property>
+        <name>mapreduce.cluster.temp.dir</name>
+        <value>/tmp/${user.name}-tmp</value>
+        <final>true</final>
+    </property>
+
+    <property>
+        <name>mapreduce.cluster.local.dir</name>
+        <value>${hadoop.tmp.dir}/dfs/data</value>
+        <final>true</final>
+    </property>
+
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+        <description>The runtime framework for executing MapReduce jobs.
+            Can be one of local, classic or yarn.
+        </description>
+    </property>
+     <property>
+              <name>mapreduce.map.memory.mb</name>
+              <value>4096</value>
+        </property>
+        <property>
+              <name>mapreduce.reduce.memory.mb</name>
+              <value>8192</value>
+         </property>
+         <property>
+                 <name>mapreduce.map.java.opts</name>
+                 <value>-Xmx6072m</value>
+         </property>
+         <property>
+                  <name>mapreduce.reduce.java.opts</name>
+                   <value>-Xmx6144m</value>
+          </property>
+
+    <property>
+        <name>mapreduce.shuffle.port</name>
+        <value>30147</value>
+    </property>
+</configuration>

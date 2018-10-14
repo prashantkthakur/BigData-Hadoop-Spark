@@ -1,0 +1,53 @@
+Title of custom ids:
++-------+--------------------+
+|     id|               title|
++-------+--------------------+
+| 390394|Anonymous_Web_sur...|
+| 390439|   Anonymous_surfing|
+| 479937|Association_of_su...|
+| 510458|Auto-surfing_program|
+| 510459|Auto-surfing_prog...|
+| 513256|         Autosurfing|
+| 675579|    Big_wave_surfing|
+| 733123|        Body_surfing|
+| 733260|         Bodysurfing|
+| 747306|  Boom_(windsurfing)|
+| 903812|       Canoe_surfing|
+| 915806|         Car_surfing|
+| 986798|     Channel-surfing|
+| 987264|     Channel_surfing|
+|1194652|       Couch_surfing|
+|1194676|        Couchsurfing|
+|1225079|       Crowd-surfing|
+|1225102|       Crowd_surfing|
+|1225152|        Crowdsurfing|
+|1242252|Cutback_(surfing_...|
++-------+--------------------+
+only showing top 20 rows
+
+Final Output:
++-------+--------------------+-------------------+
+|     id|               title|               rank|
++-------+--------------------+-------------------+
+|4290745|Rocky_Mountain_Na...| 1.2269179629278875|
+|5570884|         Windsurfing| 0.3628793337786752|
+|4582865|Shoulder_surfing_...| 0.3333333333333333|
+|4582863|Shoulder_surfing_...| 0.3333333333333333|
+|4844882|             Surfing|0.31306839591675123|
+|5535280|   Wikimedia_Commons|0.27960573085339835|
+|5535664|          Wiktionary|0.26134631491075067|
+|1569264|    Elevator_surfing| 0.1708937198067633|
+|2925715|            Leukemia| 0.1695048309178744|
+|5381138|             Viaduct| 0.1695048309178744|
+|2021319|            Graffiti| 0.1695048309178744|
+|5168338|               Train| 0.1695048309178744|
+|4771650|    Station_platform| 0.1695048309178744|
+|4681238|        South_Africa| 0.1695048309178744|
+|3797293|       Overhead_wire| 0.1695048309178744|
+|3245703|Martin_Harris_(tr...| 0.1695048309178744|
+|1127131|           Collision| 0.1695048309178744|
+|1819743|           Frankfurt| 0.1695048309178744|
+|4363110|              S-Bahn| 0.1695048309178744|
+|1563726|      Electric_shock| 0.1695048309178744|
++-------+--------------------+-------------------+
+only showing top 20 rows
