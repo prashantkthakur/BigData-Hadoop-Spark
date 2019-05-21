@@ -1,0 +1,4 @@
+The repository contians the code for MapReduce programs (using Hadoop) for analyzing wikipedia dataset
+to compute n-grams and page rank of different links present in the wikipedia articles. 
+
+This was done for course Introduction to Big Data (CS435)
